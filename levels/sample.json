@@ -1,0 +1,125 @@
+{
+    "environment": {
+        "skybox": "Forest",
+        "level_name": "Test level",
+        "dev_minutes": "0",
+        "dev_seconds": "21",
+        "dev_blocks": "12"
+    },
+    "spawnpoints": [
+        {
+            "name": "Spawnpoint 0",
+            "position": "(1, 0, 0)",
+            "rotation": "(0.00000, 0.70711, 0.00000, -0.70711)",
+            "options": []
+        },
+        {
+            "name": "Spawnpoint 1",
+            "position": "(-1, 0, 0)",
+            "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+            "options": []
+        }
+    ],
+    "flags": [
+        {
+            "name": "Flag 0",
+            "position": "(0, 0, 0)",
+            "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+            "options": [
+                {
+                    "Timed": "False"
+                },
+                {
+                    "Seconds for win": "0"
+                }
+            ]
+        },
+        {
+            "name": "Flag 1",
+            "position": "(-1, 0, -1)",
+            "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+            "options": [
+                {
+                    "Timed": "True"
+                },
+                {
+                    "Seconds for win": "5"
+                }
+            ]
+        }
+    ],
+    "level": [
+        {
+            "name": "Full Block 3",
+            "position": "(0, 0, -1)",
+            "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+            "options": [
+                {
+                    "Color": "White"
+                }
+            ]
+        },
+        {
+            "name": "Full Block 5",
+            "position": "(0, 0, 1)",
+            "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+            "options": [
+                {
+                    "Color": "White"
+                }
+            ]
+        },
+        {
+            "name": "Full Block 6",
+            "position": "(1, 0, -1)",
+            "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+            "options": [
+                {
+                    "Color": "White"
+                }
+            ]
+        },
+        {
+            "name": "Moving Platform 0",
+            "position": "(1, 1, -1)",
+            "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+            "options": [
+                {
+                    "Color": "Red"
+                },
+                {
+                    "Floor count": "3"
+                },
+                {
+                    "Floor distance": "2"
+                },
+                {
+                    "Movement speed": "10"
+                }
+            ]
+        },
+        {
+            "name": "Lifting Door 0",
+            "position": "(0, 1, 1)",
+            "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+            "options": [
+                {
+                    "Color": "Yellow"
+                }
+            ]
+        },
+        {
+            "name": "Pressure Plate 0",
+            "position": "(0, 1, -1)",
+            "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+            "options": [
+                {
+                    "Moving Platform 0": "Activate"
+                },
+                {
+                    "Lifting Door 0": "Hold"
+                }
+            ]
+        }
+    ]
+}
