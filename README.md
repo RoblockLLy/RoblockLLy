@@ -2,7 +2,7 @@
     <img width="1000%" src="img/RoblockLLy-Logo.jpg" >
 </p>
 
-Source code of RoblockLLy, an educational robotics simulator based on Unity and UBlockly. This is a browser-based version of the simulator that can be accessed through the following [link](https://roblocklly.github.io/RoblockLLy/). The project requires at least Unity version 2022.3.27f1.
+Source code of RoblockLLy, an educational robotics simulator based on Unity and UBlockly. This is a browser-based version of the simulator that can be accessed through the following [link](https://roblocklly.github.io/RoblockLLy/). The project requires at least Unity version 6000.5.5f1.
 
 
 # Sample images
